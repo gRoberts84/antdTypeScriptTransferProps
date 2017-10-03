@@ -1,0 +1,13 @@
+{
+  "name": "typescriptTransferIssue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "antd": "^2.13.4",
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.7"
+  }
+}
