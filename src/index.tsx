@@ -1,4 +1,5 @@
 import * as React from 'react';
+import ReactDOM from 'react-dom';
 import { Transfer, Form } from 'antd';
 
 class InternalTestForm extends React.Component<any, any> {
@@ -48,3 +49,8 @@ class InternalTestForm extends React.Component<any, any> {
 }
 
 const TestForm = Form.create()(InternalTestForm)
+
+ReactDOM.render(
+  <TestForm />,
+  document.getElementById('container')
+)
